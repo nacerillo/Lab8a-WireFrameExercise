@@ -1,0 +1,52 @@
+#navtop {
+  float: left;
+  width: 100%; /* i'm assuming full width */
+  height: 80px; /* change it to desired width */
+  background-color: grey; /* change to desired color */
+}
+.logo1 {
+  float: left;
+  margin: auto;
+  margin-left: 10%;
+}
+.navopt {
+  display: inline-block;
+  margin: auto;
+  height: 50%;
+  padding-left: 8%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 10%;
+}
+#col1,
+#col2,
+#col3 {
+  float: left;
+  width: 300px;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#cola,
+#colb {
+  float: left;
+  width: 480px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#logo {
+  width: 200px;
+  height: 100%;
+  /* if you want it vertically middle of the navbar. */
+}
+
+#Img2 {
+  width: 80%;
+  margin-left: 10%;
+  padding: 50px 20px 100px 20px;
+}
+
+#footer {
+  background-color: grey;
+}
