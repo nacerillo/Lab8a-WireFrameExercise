@@ -1,9 +1,17 @@
-#navtop {
-  float: left;
+#head {
+  background-color: grey;
+}
+.navtop {
   width: 100%; /* i'm assuming full width */
-  height: 80px; /* change it to desired width */
-  background-color: grey; /* change to desired color */
+  height: 70px; /* change it to desired width */
+  /* change to desired color */
   padding: 20px 20px 20px 20px;
+}
+.navopt {
+  float: left;
+  height: 70px;
+  width: 200px;
+  padding-left: 5%;
 }
 
 .box {
@@ -29,6 +37,7 @@
   width: 40%;
   padding-left: 10%;
   padding-bottom: 2%;
+  overflow: scroll;
 }
 #footer {
   width: 100%;
